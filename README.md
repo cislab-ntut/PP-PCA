@@ -12,8 +12,8 @@
 6. Secret Sharing Eigenshift
    這個演算法為將共變數矩陣進行位移，然後將位移過後的共變數矩陣再丟回Secret Sharing PowerMethod，去進行第二輪的運算
 
-完整的運行過程:
-讀取Data > Secret Sharing Covariance Matrix 產生共變數矩陣 >  Secret Sharing PowerMethod 產生第一組特徵值，特徵向量 > Secret Sharing Eigenshift 位移共變數矩陣 > Secret Sharing PowerMethod 產生第二組特徵值，特徵向量 > Secret Sharing Eigenshift 位移共變數矩陣 > Secret Sharing PowerMethod 產生第三組特徵值，特徵向量 > Secret Sharing Eigenshift 位移共變數矩陣
+完整的運行過程:\\
+讀取Data > Secret Sharing Covariance Matrix 產生共變數矩陣 >  Secret Sharing PowerMethod 產生第一組特徵值，特徵向量 > Secret Sharing Eigenshift 位移共變數矩陣 \\> Secret Sharing PowerMethod 產生第二組特徵值，特徵向量 > Secret Sharing Eigenshift 位移共變數矩陣 \\> Secret Sharing PowerMethod 產生第三組特徵值，特徵向量 > Secret Sharing Eigenshift 位移共變數矩陣\\
 程式的執行都是以三組特徵值特徵向量為標準，Taylor Expansion以及Newton's algorithm在每一次Secret Sharing PowerMethod中都會使用，讓標準化的動作可以在分享的狀態運作。
 
 ## Compare.py
